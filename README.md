@@ -74,6 +74,15 @@ Models are stored in `~/.cache/whisper/`.
 | `--bootstrap` | Download the whisper model |
 | `-v, --verbose` | Verbose output |
 
+## Web App
+
+Simple web interface for non-technical users:
+
+```bash
+pip install streamlit
+PYTHONPATH=src streamlit run app.py
+```
+
 ## Supported Audio Formats
 
 wav, mp3, m4a, flac, ogg, aac, wma, opus

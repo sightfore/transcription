@@ -17,12 +17,12 @@ echo ""
 # Check prerequisites
 echo "Checking prerequisites..."
 
-if ! command -v whisper-cpp &> /dev/null; then
-    echo "  [!] whisper-cpp not found"
+if ! command -v whisper-cli &> /dev/null; then
+    echo "  [!] whisper-cli not found"
     echo "      Run: brew install whisper-cpp"
     exit 1
 else
-    echo "  [✓] whisper-cpp"
+    echo "  [✓] whisper-cli"
 fi
 
 if ! command -v ffmpeg &> /dev/null; then

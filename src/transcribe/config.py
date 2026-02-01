@@ -3,7 +3,7 @@
 from pathlib import Path
 
 # Whisper.cpp settings
-WHISPER_BINARY = "whisper-cpp"
+WHISPER_BINARY = "whisper-cli"
 DEFAULT_MODEL = "medium"
 SUPPORTED_MODELS = ("medium", "large", "large-v2", "large-v3")
 
